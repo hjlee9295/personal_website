@@ -1,0 +1,275 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Hojin's Personal Website</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hojin Lee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/hjlee9295" >Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/hojinlee/" >LinkedIn</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner.jpeg"/>
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Welcome to Hojin's Website</h1>
+            <p>This is a personal website for Hojin Lee. Nice meeting you!</p>
+            <p>I am a Analytics & Data Science professional with strengths in computational analytics, financial analysis, credit risk modeling and 4+ years of experiences.
+               Experienced in developing a product with quantitative, predictive/prescriptive models and data pipelines.
+               Experienced in designing a systematic solution to a complex business cases and communicating insights to executive leaderships.
+               Educational background in Operations Research, Data Science and Finance.</p>
+            <p><a class="btn btn-lg btn-primary" target="_blank" href="https://www.linkedin.com/in/hojinlee/">Contact me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <img src="images/data_science.jpeg"/>
+        <div class="container">
+          <div class="carousel-caption">
+
+            <h1>I am a data scientist and an asporing Machine Learning Engineer.</h1>
+            <p>I would like to become a Machine Learning Engineer.</p>
+            <p><a class="btn btn-lg btn-primary" target="_blank" href="https://github.com/hjlee9295">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <img src="images/freetime.jpg"/>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>What do I do in my free time</h1>
+            <p>I am an enthusiastic long-distance runner</p>
+            <p><a class="btn btn-lg btn-primary" href="album.html">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src ="images/degree.png" style="width:140px;height:140px;" />
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+        <h2>Education</h2>
+        <p>MS in Data Science from Columbia University</p>
+        <p>BS in Industrial Engineering from Georgia Tech</p>
+        <p><a class="btn btn-secondary" href="#education">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+        <img src ="images/happymoney.png" style="width:140px;height:140px;" />
+        <h2>Work Experiences</h2>
+        <p>Senior Busines Analyst at Happy Money </p>
+        <p>Analytics Manager at Global Lending Service LLC. </p>
+        <p><a class="btn btn-secondary" href="#work">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+        <img src ="images/GitHub-Mark.png" style="width:140px;height:140px;" />
+        <h2>Portfolio</h2>
+        <p>Side Projects that I do at my free time.</p>
+        <p><a class="btn btn-secondary" href="#sideprojects">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="education">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Education </h2>
+        <p class="lead">Constant and fast learner who stives for the excellency</p>
+        <br></br>
+        <ul>
+          <li class="lead">MS in Data Science from Columbia University.</li>
+          <li class="lead">BS in Industrial Engineering Georgia Institute of Techonology.</li>
+          <li class="lead">CFA level 3 passed (June 2019).</li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img src ="images/education.jpg" style="width:500px;" />
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id ="work">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Work Experience</span></h2>
+        <p class="lead"> Happy Money Inc: Feb. 2021 - Current </p>
+        <ul>
+          <li>Independently designed and developed a systematic loss forecasting framework from scratch including risk model building, portfolio simulation application, establishing data ETL pipeline and interactive visualization dashboard using Python; deploying the package empowered each analyst by providing the tool and eventually reduced expected model vetting process by more than 75% </li>
+          <li>Conducted a holistic analysis on macroeconomics and how it correlates with recent surge in prepayment in our portfolio. Research methodology includes exploratory data analysis and time series modeling of macro indicators and conclusion was that the recent surge in prepayment will soon be normalized</li>
+        </ul>
+        <p class="lead"> Global Lending Services LLC: Apr. 2016 - Apr 2019 </p>
+        <ul>
+          <li>Developed and managed loan pricing product for subprime auto loan which takes various customer information as an input and returns every detail of the originations such as APR, loan amount, and term</li>
+          <li>Constructed Web Application for internal customer credit score model and redesigned asset pricing package by removing redundant application calls which resulted in ~30% reduction in overhead time</li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <div class="parent">
+          <img src ="images/workexperience.png" style="width:500px; position: relative;" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="sideprojects">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Projects and Portfolio</span></h2>
+        <p class="lead"> Peace Speech - Master's Capstone Projects </p>
+        <ul>
+          <li>Took 20 millions of news articles from various countries and checked whether there is a correlation between peacefulness of the country and the languages used in the articles using NLP techniques.</li>
+          <a class="nav-link" target="_blank" href="https://github.com/mbmackenzie/power-of-peace-speech" >Github Link</a>
+        </ul>
+        <p class="lead"> MBTI Twitter - NLP Project </p>
+        <ul>
+          <li>Type in User's Twitter ID and it automatically predicts user's MBTI given recent tweets. Model developed using transformers (NLP).</li>
+          <li> https://mbti-twitter-streamlit.herokuapp.com/</li>
+          <a class="nav-link" target="_blank" href="https://github.com/hjlee9295/MBTI_twitter" >Link to Github Page</a>
+        </ul>
+        <p class="lead"> Citadel Hackathon - ML Project </p>
+        <ul>
+          <li>Predicts the winner of Oscar awards given various attributes of the movies such as rating, audiences, director, cast, and reviews</li>
+          <a class="nav-link" target="_blank" href="https://github.com/hjlee9295/citadel_hackathon/blob/main/team3_report.pdf" >Link to Final Report</a>
+        </ul>
+        <p class="lead"> Where to live in New York - Data visualization </p>
+        <ul>
+          <li>Exploratory data analysis project to find out the best place to live in New York city given crime, transportation and retaurants data</li>
+          <a class="nav-link" target="_blank" href="https://rpubs.com/hjlee9295/edav_final" > Final Report</a>
+        </ul>
+
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src ="images/sideprojects.png" style="width:500px; vertical-align:middle;" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; Hojin Lee </p>
+  </footer>
+</main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
